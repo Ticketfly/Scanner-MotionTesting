@@ -22,8 +22,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Motion Tester" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="03S-Wb-75X">
-                                <rect key="frame" x="26" y="30" width="101.5" height="18"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Robo Scanner" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="03S-Wb-75X">
+                                <rect key="frame" x="26" y="30" width="102" height="18"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -75,8 +75,8 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="4gh-AJ-sT7">
                                 <rect key="frame" x="233" y="100" width="100" height="60"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" tag="75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OqJ-dM-oKS">
-                                        <rect key="frame" x="0.0" y="0.0" width="100" height="19"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" tag="75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OqJ-dM-oKS">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="0.0"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="p9Q-J1-drH"/>
                                         </constraints>
@@ -84,8 +84,8 @@
                                         <color key="textColor" red="1" green="0.26243979142174245" blue="0.045704619963191528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" tag="75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ADS-vc-vI7">
-                                        <rect key="frame" x="0.0" y="19" width="100" height="20.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" tag="75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ADS-vc-vI7">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="0.0"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="lj2-fx-Z7O"/>
                                         </constraints>
@@ -93,8 +93,8 @@
                                         <color key="textColor" red="0.029982441216662714" green="1" blue="0.12279558427653692" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" tag="75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gYW-vx-4QX">
-                                        <rect key="frame" x="0.0" y="39.5" width="100" height="20.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" tag="75" contentMode="left" horizontalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gYW-vx-4QX">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="60"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="BXB-Zs-PRm"/>
                                         </constraints>
@@ -111,8 +111,8 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="XQe-DY-vBp">
                                 <rect key="frame" x="233" y="193" width="100" height="60"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" tag="75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MAg-ye-zO5">
-                                        <rect key="frame" x="0.0" y="0.0" width="100" height="19"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" tag="75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MAg-ye-zO5">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="0.0"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="iN1-e6-ggX"/>
                                         </constraints>
@@ -120,8 +120,8 @@
                                         <color key="textColor" red="1" green="0.26243979140000001" blue="0.045704619959999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" tag="75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jrr-j2-RQ2">
-                                        <rect key="frame" x="0.0" y="19" width="100" height="20.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" tag="75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jrr-j2-RQ2">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="0.0"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="AxJ-is-i2A"/>
                                         </constraints>
@@ -129,8 +129,8 @@
                                         <color key="textColor" red="0.029982441219999999" green="1" blue="0.1227955843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" tag="75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qiL-ub-Gxu">
-                                        <rect key="frame" x="0.0" y="39.5" width="100" height="20.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" tag="75" contentMode="left" horizontalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qiL-ub-Gxu">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="60"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="Hkc-eg-xtv"/>
                                         </constraints>
@@ -188,8 +188,8 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="joC-kz-Pb1">
                                 <rect key="frame" x="233" y="286" width="100" height="60"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" tag="75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fn8-xX-557">
-                                        <rect key="frame" x="0.0" y="0.0" width="100" height="19"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" tag="75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fn8-xX-557">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="0.0"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="P2e-Md-epC"/>
                                         </constraints>
@@ -197,8 +197,8 @@
                                         <color key="textColor" red="1" green="0.26243979140000001" blue="0.045704619959999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" tag="75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8xI-bG-HYQ">
-                                        <rect key="frame" x="0.0" y="19" width="100" height="20.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" tag="75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8xI-bG-HYQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="60"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="Api-wa-sOX"/>
                                         </constraints>
@@ -206,8 +206,8 @@
                                         <color key="textColor" red="0.029982441219999999" green="1" blue="0.1227955843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" tag="75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vfs-cE-cRx">
-                                        <rect key="frame" x="0.0" y="39.5" width="100" height="20.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" tag="75" contentMode="left" horizontalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vfs-cE-cRx">
+                                        <rect key="frame" x="0.0" y="60" width="100" height="0.0"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="zdf-ja-ezR"/>
                                         </constraints>
@@ -265,8 +265,8 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="gYT-ug-1Ua">
                                 <rect key="frame" x="233" y="379" width="100" height="60"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" tag="75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dUU-ab-WMz">
-                                        <rect key="frame" x="0.0" y="0.0" width="100" height="19"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" tag="75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dUU-ab-WMz">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="0.0"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="OuC-bi-MlK"/>
                                         </constraints>
@@ -274,8 +274,8 @@
                                         <color key="textColor" red="1" green="0.26243979140000001" blue="0.045704619959999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" tag="75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QIF-ir-KIa">
-                                        <rect key="frame" x="0.0" y="19" width="100" height="20.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" tag="75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QIF-ir-KIa">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="0.0"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="VOA-9Y-obC"/>
                                         </constraints>
@@ -283,8 +283,8 @@
                                         <color key="textColor" red="0.029982441219999999" green="1" blue="0.1227955843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" tag="75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xQx-gL-PFh">
-                                        <rect key="frame" x="0.0" y="39.5" width="100" height="20.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" tag="75" contentMode="left" horizontalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xQx-gL-PFh">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="60"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="jbR-41-p9R"/>
                                         </constraints>
@@ -367,6 +367,9 @@
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <state key="normal" title="Start Sensing">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="disabled">
+                                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
                                             <action selector="startSensing:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cw9-H1-JL5"/>
@@ -499,6 +502,8 @@
                         <outlet property="motionPitchValue" destination="OqJ-dM-oKS" id="t6b-H4-Rue"/>
                         <outlet property="motionRollValue" destination="gYW-vx-4QX" id="dju-mf-Kas"/>
                         <outlet property="motionYawValue" destination="ADS-vc-vI7" id="toH-21-y7I"/>
+                        <outlet property="startButton" destination="SD8-yq-z6R" id="9KT-DY-QBK"/>
+                        <outlet property="stopButton" destination="Kc8-Mr-6gD" id="bAl-xI-pib"/>
                         <outlet property="subtract" destination="USN-mB-e35" id="vlk-a7-RMe"/>
                         <outlet property="timingIntervalLabel" destination="E6K-uq-PCm" id="QEs-IP-8iN"/>
                         <outlet property="timingIntervalSlider" destination="5fY-RQ-zKT" id="jim-Tq-6Nk"/>

@@ -6,8 +6,7 @@ target 'EMSMotionTester' do
   use_frameworks!
 
   # Pods for EMSMotionTester
-  pod 'CSVImporter', '~> 1.7'
-  
+   
   target 'EMSMotionTesterTests' do
     inherit! :search_paths
     # Pods for testing

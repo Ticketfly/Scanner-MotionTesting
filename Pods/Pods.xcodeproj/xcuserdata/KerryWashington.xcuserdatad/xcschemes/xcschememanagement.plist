@@ -4,16 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>CSVImporter.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>HandySwift.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-EMSMotionTester.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,22 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>630E819C5586BCB16E5B5DFEF33AF970</key>
+		<key>2B53FAC7A17C3A4EB679D30375DB8EA6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>9D98E4D6A98FD02F9A64727A678741BD</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>A893B4CCB420711E3380DC6A71C29166</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E9CD67DFF2ECE02D6A71C79F30D74ADC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
