@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreMotion
+import CSVImporter
 
 class ViewController: UIViewController {
 
@@ -36,10 +37,52 @@ class ViewController: UIViewController {
     
     @IBAction func startSensing(_ sender: Any) {
         
+        motionManager.startAccelerometerUpdates()
+        motionManager.startGyroUpdates()
+        motionManager.startDeviceMotionUpdates(to: OperationQueue.main, withHandler:{  deviceManager, error in
+ 
+            if let motion = deviceManager?.attitude, let gyroData = deviceManager?.rotationRate, let deviceAccel = deviceManager?.gravity, let userAccel = deviceManager?.userAcceleration {
+            //Attitude
+            self.motionPitchValue.text = String.init(format: "%0.05f", arguments: [motion.pitch])
+            self.motionYawValue.text = String.init(format: "%0.05f", arguments: [motion.yaw])
+            self.motionRollValue.text = String.init(format: "%0.05f", arguments: [motion.roll])
+ 
+            //Gyro
+            self.alpha.text = String.init(format: "%0.05f", arguments: [gyroData.x])
+            self.beta.text = String.init(format: "%0.05f", arguments: [gyroData.y])
+            self.gamma.text = String.init(format: "%0.05f", arguments: [gyroData.z])
+            //Device Acceleration
+            self.deviceAccelX.text = String.init(format: "%0.05f", arguments: [deviceAccel.x])
+            self.deviceAccelY.text = String.init(format: "%0.05f", arguments: [deviceAccel.y])
+            self.deviceAccelZ.text = String.init(format: "%0.05f", arguments: [deviceAccel.z])
+            //User Acceleration
+            self.userAccelX.text = String.init(format: "%0.05f", arguments: [userAccel.x])
+            self.userAccelY.text = String.init(format: "%0.05f", arguments: [userAccel.y])
+            self.userAccelZ.text = String.init(format: "%0.05f", arguments: [userAccel.z])
+                
+            print(motion.pitch)
+                
+            }
+        })
+    
     }
     
     @IBAction func stopSensing(_ sender: Any) {
         
+        motionManager.stopAccelerometerUpdates()
+        motionManager.stopGyroUpdates()
+        motionManager.stopDeviceMotionUpdates()
+        
+        for valueLabel in self.view.subviews {
+        
+            if let label = valueLabel as? UILabel {
+            
+                if label.tag == 75 {
+                    label.text = "0.0000"
+                }
+            }
+        }
+    
     }
     
     @IBAction func sliderChanged(_ sender: UISlider) {
@@ -70,7 +113,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         setupMotionManager()
-        
+        setupCSVFile()
         
     }
     
@@ -78,7 +121,23 @@ class ViewController: UIViewController {
     
         timingIntervalSlider.value = Float(timingInterval)
         timingIntervalLabel.text = String.init(format: "%0.2f", arguments: [timingInterval]) + "  Sec."
+        
+        motionManager = CMMotionManager()
+        motionManager.deviceMotionUpdateInterval = timingInterval
+        motionManager.accelerometerUpdateInterval = timingInterval
+        motionManager.gyroUpdateInterval = timingInterval
+        
     
+    }
+    
+    
+    func setupCSVFile() {
+        
+        let path = ""
+        //let importer = CSVImporter<[String]>(path:path)
+        
+    
+        
     }
     
 

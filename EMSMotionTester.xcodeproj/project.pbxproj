@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		243EDB0E1ECD75B8001B2257 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 243EDB0D1ECD75B8001B2257 /* CoreMotion.framework */; };
 		24F4D4201ECD3C7B00CB6BB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F4D41F1ECD3C7B00CB6BB6 /* AppDelegate.swift */; };
 		24F4D4221ECD3C7B00CB6BB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F4D4211ECD3C7B00CB6BB6 /* ViewController.swift */; };
 		24F4D4251ECD3C7B00CB6BB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24F4D4231ECD3C7B00CB6BB6 /* Main.storyboard */; };
 		24F4D4271ECD3C7B00CB6BB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24F4D4261ECD3C7B00CB6BB6 /* Assets.xcassets */; };
 		24F4D42A1ECD3C7B00CB6BB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24F4D4281ECD3C7B00CB6BB6 /* LaunchScreen.storyboard */; };
 		24F4D4351ECD3C7C00CB6BB6 /* EMSMotionTesterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F4D4341ECD3C7C00CB6BB6 /* EMSMotionTesterTests.swift */; };
+		C2F436A671D28DCC39E803BA /* Pods_EMSMotionTesterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E4535DAA2C0AE8883BAC72D /* Pods_EMSMotionTesterTests.framework */; };
+		E745733E3DDF50F7CB1C9B2B /* Pods_EMSMotionTester.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E4DDE6B84D9B83E5AD8251C /* Pods_EMSMotionTester.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03128CEBF7C6C3080858E663 /* Pods-EMSMotionTesterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMSMotionTesterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EMSMotionTesterTests/Pods-EMSMotionTesterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		138230303DC6F5EB553450E1 /* Pods-EMSMotionTester.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMSMotionTester.release.xcconfig"; path = "Pods/Target Support Files/Pods-EMSMotionTester/Pods-EMSMotionTester.release.xcconfig"; sourceTree = "<group>"; };
+		243EDB0D1ECD75B8001B2257 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		24F4D41C1ECD3C7B00CB6BB6 /* EMSMotionTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EMSMotionTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24F4D41F1ECD3C7B00CB6BB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24F4D4211ECD3C7B00CB6BB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +42,10 @@
 		24F4D4301ECD3C7C00CB6BB6 /* EMSMotionTesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EMSMotionTesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24F4D4341ECD3C7C00CB6BB6 /* EMSMotionTesterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMSMotionTesterTests.swift; sourceTree = "<group>"; };
 		24F4D4361ECD3C7C00CB6BB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E4DDE6B84D9B83E5AD8251C /* Pods_EMSMotionTester.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EMSMotionTester.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E4535DAA2C0AE8883BAC72D /* Pods_EMSMotionTesterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EMSMotionTesterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E974C55E54C16DA5A21441 /* Pods-EMSMotionTester.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMSMotionTester.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EMSMotionTester/Pods-EMSMotionTester.debug.xcconfig"; sourceTree = "<group>"; };
+		E162FE0DDB4B19ED4EB9D285 /* Pods-EMSMotionTesterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMSMotionTesterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EMSMotionTesterTests/Pods-EMSMotionTesterTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				243EDB0E1ECD75B8001B2257 /* CoreMotion.framework in Frameworks */,
+				E745733E3DDF50F7CB1C9B2B /* Pods_EMSMotionTester.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2F436A671D28DCC39E803BA /* Pods_EMSMotionTesterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +75,8 @@
 				24F4D41E1ECD3C7B00CB6BB6 /* EMSMotionTester */,
 				24F4D4331ECD3C7C00CB6BB6 /* EMSMotionTesterTests */,
 				24F4D41D1ECD3C7B00CB6BB6 /* Products */,
+				41D294769DF52F7AD14A16C6 /* Pods */,
+				6B508B95AE2EB07D916F21DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +111,27 @@
 			path = EMSMotionTesterTests;
 			sourceTree = "<group>";
 		};
+		41D294769DF52F7AD14A16C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89E974C55E54C16DA5A21441 /* Pods-EMSMotionTester.debug.xcconfig */,
+				138230303DC6F5EB553450E1 /* Pods-EMSMotionTester.release.xcconfig */,
+				03128CEBF7C6C3080858E663 /* Pods-EMSMotionTesterTests.debug.xcconfig */,
+				E162FE0DDB4B19ED4EB9D285 /* Pods-EMSMotionTesterTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6B508B95AE2EB07D916F21DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				243EDB0D1ECD75B8001B2257 /* CoreMotion.framework */,
+				2E4DDE6B84D9B83E5AD8251C /* Pods_EMSMotionTester.framework */,
+				7E4535DAA2C0AE8883BAC72D /* Pods_EMSMotionTesterTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24F4D4391ECD3C7C00CB6BB6 /* Build configuration list for PBXNativeTarget "EMSMotionTester" */;
 			buildPhases = (
+				4A8F9505423C9E0B6AD609F2 /* [CP] Check Pods Manifest.lock */,
 				24F4D4181ECD3C7B00CB6BB6 /* Sources */,
 				24F4D4191ECD3C7B00CB6BB6 /* Frameworks */,
 				24F4D41A1ECD3C7B00CB6BB6 /* Resources */,
+				268DDBDCC99BB0AA92BBCAB5 /* [CP] Embed Pods Frameworks */,
+				E2064B564EF8D0A603BC5707 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24F4D43C1ECD3C7C00CB6BB6 /* Build configuration list for PBXNativeTarget "EMSMotionTesterTests" */;
 			buildPhases = (
+				234993821A732E869CED2C0D /* [CP] Check Pods Manifest.lock */,
 				24F4D42C1ECD3C7C00CB6BB6 /* Sources */,
 				24F4D42D1ECD3C7C00CB6BB6 /* Frameworks */,
 				24F4D42E1ECD3C7C00CB6BB6 /* Resources */,
+				A81419A96AC326ED6DA64E62 /* [CP] Embed Pods Frameworks */,
+				190A02D23EB7C05F64B67695 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,6 +237,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		190A02D23EB7C05F64B67695 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EMSMotionTesterTests/Pods-EMSMotionTesterTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		234993821A732E869CED2C0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		268DDBDCC99BB0AA92BBCAB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EMSMotionTester/Pods-EMSMotionTester-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A8F9505423C9E0B6AD609F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A81419A96AC326ED6DA64E62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EMSMotionTesterTests/Pods-EMSMotionTesterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2064B564EF8D0A603BC5707 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EMSMotionTester/Pods-EMSMotionTester-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		24F4D4181ECD3C7B00CB6BB6 /* Sources */ = {
@@ -339,6 +474,7 @@
 		};
 		24F4D43A1ECD3C7C00CB6BB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89E974C55E54C16DA5A21441 /* Pods-EMSMotionTester.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VB33HMQ75F;
@@ -352,6 +488,7 @@
 		};
 		24F4D43B1ECD3C7C00CB6BB6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 138230303DC6F5EB553450E1 /* Pods-EMSMotionTester.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VB33HMQ75F;
@@ -365,6 +502,7 @@
 		};
 		24F4D43D1ECD3C7C00CB6BB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03128CEBF7C6C3080858E663 /* Pods-EMSMotionTesterTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -380,6 +518,7 @@
 		};
 		24F4D43E1ECD3C7C00CB6BB6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E162FE0DDB4B19ED4EB9D285 /* Pods-EMSMotionTesterTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -412,6 +551,7 @@
 				24F4D43B1ECD3C7C00CB6BB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24F4D43C1ECD3C7C00CB6BB6 /* Build configuration list for PBXNativeTarget "EMSMotionTesterTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +560,7 @@
 				24F4D43E1ECD3C7C00CB6BB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
