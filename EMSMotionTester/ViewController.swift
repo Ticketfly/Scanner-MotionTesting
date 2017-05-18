@@ -42,12 +42,25 @@ class ViewController: UIViewController {
         
     }
     
+    @IBAction func sliderChanged(_ sender: UISlider) {
+        
+        timingIntervalLabel.text = String.init(format: "%0.2f", arguments: [sender.value]) + "  Sec."
+    }
+    
+    
     @IBAction func addValue(_ sender: Any) {
-        
+        self.timingIntervalSlider.value += 0.01
+        timingInterval = Double(self.timingIntervalSlider.value)
+        timingIntervalLabel.text = String.init(format: "%0.2f", arguments: [timingInterval]) + "  Sec."
     }
+    
     @IBAction func subtractValue(_ sender: Any) {
-        
+        self.timingIntervalSlider.value -= 0.01
+        timingInterval = Double(self.timingIntervalSlider.value)
+        timingIntervalLabel.text = String.init(format: "%0.2f", arguments: [timingInterval]) + "  Sec."
+
     }
+    
     
     
     var motionManager: CMMotionManager!
@@ -64,7 +77,7 @@ class ViewController: UIViewController {
     func setupMotionManager() {
     
         timingIntervalSlider.value = Float(timingInterval)
-    
+        timingIntervalLabel.text = String.init(format: "%0.2f", arguments: [timingInterval]) + "  Sec."
     
     }
     

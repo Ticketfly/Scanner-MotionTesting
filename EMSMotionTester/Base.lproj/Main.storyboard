@@ -346,11 +346,14 @@
                                     <constraint firstAttribute="height" constant="50" id="hjc-Hy-BrG"/>
                                 </constraints>
                             </imageView>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="5fY-RQ-zKT">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="5fY-RQ-zKT">
                                 <rect key="frame" x="85" y="537" width="204" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="JXK-uk-WwQ"/>
                                 </constraints>
+                                <connections>
+                                    <action selector="sliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="jwK-E2-MaY"/>
+                                </connections>
                             </slider>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0E6-34-diA">
                                 <rect key="frame" x="16" y="587" width="343" height="60"/>
